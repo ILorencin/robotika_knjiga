@@ -122,51 +122,49 @@ Položaj krajnjeg djelovatelja: [1.3660254 1.3660254 0.       ]
 
 Inverzna kinematika koristi se za određivanje vrijednosti zglobova na temelju poznatog položaja i orijentacije krajnjeg djelovatelja. Ovaj problem često ima više rješenja ili može biti nerješiv zbog ograničenja robota.
 
+
+## Inverzna Kinematika
+
+Inverzna kinematika koristi se za određivanje vrijednosti zglobova na temelju poznatog položaja i orijentacije krajnjeg djelovatelja. Ovaj problem često ima više rješenja ili može biti nerješiv zbog ograničenja robota.
+
 ### Matematički Primjer: Inverzna Kinematika na Ruke
 
-Za isti robot s poznatim položajem krajnjeg djelovatelja 
-
-::: latex
-\\(x = 1.5\\) i \\(y = 0.5\\), duljine veza \\(a_1 = 1\\) i \\(a_2 = 1\\):
-
-::: 
+Za isti robot s poznatim položajem krajnjeg djelovatelja \(x = 1.5\) i \(y = 0.5\), duljine veza \(a_1 = 1\) i \(a_2 = 1\):
 
 #### Korak 1: Izračunavanje Drugog Kuta
-::: latex
-\\[
-\\cos\\theta_2 = \\frac{x^2 + y^2 - a_1^2 - a_2^2}{2a_1a_2}
-\\]
-\\[
-\\cos\\theta_2 = \\frac{1.5^2 + 0.5^2 - 1^2 - 1^2}{2 \\cdot 1 \\cdot 1} = \\frac{2.5 - 2}{2} = 0.25
-\\]
-\\[
-\\theta_2 = \\arccos(0.25) \\approx 75.52^\\circ
-\\]
-::: 
+$$
+\cos\theta_2 = \frac{x^2 + y^2 - a_1^2 - a_2^2}{2a_1a_2}
+$$
+$$
+\cos\theta_2 = \frac{1.5^2 + 0.5^2 - 1^2 - 1^2}{2 \cdot 1 \cdot 1} = \frac{2.5 - 2}{2} = 0.25
+$$
+$$
+\theta_2 = \arccos(0.25) \approx 75.52^\circ
+$$
+
 #### Korak 2: Izračunavanje Prvog Kuta
-::: latex
-\\[
-k_1 = a_1 + a_2\\cos\\theta_2, \\quad k_2 = a_2\\sin\\theta_2
-\\]
-\\[
-k_1 = 1 + 1\\cdot0.25 = 1.25, \\quad k_2 = 1\\cdot\\sqrt{1 - 0.25^2} = \\sqrt{0.9375} \\approx 0.968
-\\]
-\\[
-\\theta_1 = \\arctan\\left(\\frac{y}{x}\\right) - \\arctan\\left(\\frac{k_2}{k_1}\\right)
-\\]
-\\[
-\\theta_1 = \\arctan\\left(\\frac{0.5}{1.5}\\right) - \\arctan\\left(\\frac{0.968}{1.25}\\right) \\approx 18.43^\\circ - 37.77^\\circ \\approx -19.34^\\circ
-\\]
-::: 
+$$
+k_1 = a_1 + a_2\cos\theta_2, \quad k_2 = a_2\sin\theta_2
+$$
+$$
+k_1 = 1 + 1\cdot0.25 = 1.25, \quad k_2 = 1\cdot\sqrt{1 - 0.25^2} = \sqrt{0.9375} \approx 0.968
+$$
+$$
+\theta_1 = \arctan\left(\frac{y}{x}\right) - \arctan\left(\frac{k_2}{k_1}\right)
+$$
+$$
+\theta_1 = \arctan\left(\frac{0.5}{1.5}\right) - \arctan\left(\frac{0.968}{1.25}\right) \approx 18.43^\circ - 37.77^\circ \approx -19.34^\circ
+$$
+
 Rezultirajući kutovi su:
-::: latex
-\\[
-\\theta_1 \\approx -19.34^\\circ, \\quad \\theta_2 \\approx 75.52^\\circ
-\\]
-::: 
+$$
+\theta_1 \approx -19.34^\circ, \quad \theta_2 \approx 75.52^\circ
+$$
 
 ### Python Primjer: Inverzna Kinematika
 ```python
+import numpy as np
+
 def inverse_kinematics(x, y, a1, a2):
     # Inverzna kinematika za planarni 2-zglobni robot
     r = np.sqrt(x**2 + y**2)
@@ -194,7 +192,7 @@ try:
     print(f"Kutovi zglobova: θ1={theta1:.2f}°, θ2={theta2:.2f}°")
 except ValueError as e:
     print(e)
-```
+
 
 Rezultat:
 ```
