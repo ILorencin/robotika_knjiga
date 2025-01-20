@@ -25,31 +25,29 @@ Senzori omogućuju robotu da percipira svoju okolinu. Na primjer, kamere pružaj
 ### Industrijski roboti
 Industrijski roboti koriste se u proizvodnim pogonima za montažu, zavarivanje i rukovanje materijalima. Ovi roboti obično imaju visok stupanj točnosti i ponovljivosti, što ih čini idealnima za zahtjevne industrijske procese.
 
-![Manipulator robota](images/manipulator.jpg)
+<img src="images/manipulator.jpg" alt="Manipulator robota" width="400">
 *Slika: Industrijski manipulator Fanuc.*
 
-
-![Manipulator robota](images/manipulator2.jpg)
+<img src="images/manipulator2.jpg" alt="Manipulator robota" width="400">
 *Slika: Industrijski manipulator ABB irb 120.*
 
 ### Mobilni roboti
 Mobilni roboti, poput robotskih usisavača i autonomnih vozila, dizajnirani su za kretanje u okruženju. Oni koriste kombinaciju senzora i algoritama za navigaciju kroz dinamične i nepredvidive uvjete.
 
-![Mobilni robot](images/mobile_robot.jpg)
+<img src="images/mobile_robot.jpg" alt="Mobilni robot" width="400">
 *Slika: Simulacija mobilnog robota.*
 
-![Mobilni robot](images/mobile_robot2.jpg)
+<img src="images/mobile_robot2.jpg" alt="Mobilni robot" width="400">
 *Slika: Prototip autonomnog vozila i mobilnog robota gusjeničara.*
 
 ### Humanoidni roboti
 Humanoidni roboti, poput Pepper, oponašaju ljudsku anatomiju i pokrete, često se koristeći za društvene interakcije i istraživanje.
 
-![Humanoidni robot Pepper](images/humanoid_robot1.jpg)
+<img src="images/humanoidni_robot1.jpg" alt="Humanoidni robot Pepper" width="400">
 *Slika: Humanoidni robot Pepper, primjer naprednog dizajna u robotici.*
 
-![Humanoidni robot Timmyja Hartera](images/humanoid_robot1.jpg)
+<img src="images/humanoidni_robot2.jpg" alt="Humanoidni robot Timmyja Hartera" width="400">
 *Slika: Humanoidni robot Timmyja Hartera, prototip humanoidnog robota izrađen od strane Hartera Robotics iz Matulja.*
 
 ### Medicinski roboti
 Medicinski roboti imaju specijalizirane funkcije, uključujući asistenciju pri operacijama i rehabilitaciju pacijenata. Na primjer, Da Vinci sustav omogućuje kirurzima izvođenje minimalno invazivnih zahvata uz visoku preciznost.
-
