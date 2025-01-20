@@ -43,18 +43,146 @@ Senzori omogućuju robotu da percipira svoju okolinu. Na primjer, kamere pružaj
 - **Ponovljivost:** Sposobnost robota da više puta postigne isti položaj s jednakim odstupanjem.
 
 
-## Različite Vrste Robota
+# Industrijski Roboti
 
-### Industrijski roboti
-Industrijski roboti koriste se u proizvodnim pogonima za montažu, zavarivanje i rukovanje materijalima. Ovi roboti obično imaju visok stupanj točnosti i ponovljivosti, što ih čini idealnima za zahtjevne industrijske procese.
+Industrijski roboti su autonomni ili poluautonomni strojevi dizajnirani za obavljanje repetitivnih, preciznih i često fizički zahtjevnih zadataka u industrijskim okruženjima. Oni su ključni dio modernih proizvodnih procesa, omogućujući visoku produktivnost, dosljednu kvalitetu i sigurnost. Ovi roboti rade u kontroliranim uvjetima gdje mogu izvoditi zadatke s minimalnim utjecajem ljudskih faktora.
+
+<img src="images/manipulator2.jpg" alt="Manipulator robota" width="400">
+*Slika: Industrijski robot ABB irb 120.*
+
+## Glavne Karakteristike Industrijskih Robota
+
+1. **Točnost:** Sposobnost izvođenja zadataka s vrlo malim odstupanjima od zadanih parametara (često u mikrometrima).
+2. **Ponovljivost:** Roboti mogu višekratno izvoditi iste zadatke s istim rezultatom.
+3. **Brzina:** Omogućuje brzo izvođenje zadataka, čime se povećava ukupna učinkovitost proizvodnih procesa.
+4. **Fleksibilnost:** Moderni industrijski roboti mogu se programirati za različite zadatke, što omogućuje brzu prilagodbu promjenama u proizvodnji.
+5. **Nosivost:** Ovisno o primjeni, industrijski roboti mogu rukovati teretima od nekoliko grama do nekoliko tona.
+
+---
+
+## Komponente Industrijskog Robota
+
+1. **Manipulator (Robotska Ruka):**
+   Manipulator ima više stupnjeva slobode, omogućujući kretanje u različitim smjerovima. Sastoji se od segmenata povezanih zglobovima koji omogućuju rotaciju i translaciju.
 
 <img src="images/manipulator.jpg" alt="Manipulator robota" width="400">
 *Slika: Industrijski manipulator Fanuc.*
 
-<img src="images/manipulator2.jpg" alt="Manipulator robota" width="400">
-*Slika: Industrijski manipulator ABB irb 120.*
+2. **Krajnji Djelovatelj (End-Effector):**
+   Specifičan alat na kraju manipulatora prilagođen za određeni zadatak, poput hvataljke, zavarivača, bušilice ili kamere.
 
-### Mobilni roboti
+   <img src="images/elektricni_end_effector.jpg" alt="Manipulator robota" width="400">
+*Slika: Električna hvataljka.*
+
+   <img src="images/pneumatski_end_effector.jpg" alt="Manipulator robota" width="400">
+*Slika: Pneumatska hvataljka.*
+
+3. **Sustav Pogona:**
+   Pogoni mogu biti električni, hidraulički ili pneumatski, ovisno o zahtjevima zadatka. Električni pogoni često se koriste zbog svoje preciznosti i energetske učinkovitosti.
+
+   <img src="images/pogon.jpg" alt="Manipulator robota" width="400">
+*Slika: Pogon pneumatskog cilindra.*
+
+4. **Senzori:**
+   Omogućuju robotu da "osjeća" okolinu, uključujući vizualne senzore, senzore dodira i senzore sile.
+
+   <img src="images/kamera.jpg" alt="Manipulator robota" width="400">
+*Slika: Industrijska kamera.*
+
+5. **Kontrolni Sustav:**
+   "Mozak" robota koji interpretira programe i upravlja kretanjem manipulatora i rada senzora.
+
+<img src="images/upravljacka.jpg" alt="Manipulator robota" width="400">
+*Slika: Teach pendant industrijskog robota.*
+
+<img src="images/upravljacka2.jpg" alt="Manipulator robota" width="400">
+*Slika: Upravljačka jedinica industrijskog robota.*
+
+## Vrste Industrijskih Robota
+
+### Kartezijskih Robota (XYZ Roboti)
+- Imaju tri linearne osi koje omogućuju gibanje u pravcu X, Y i Z.
+- Često se koriste za zadatke poput rukovanja materijalima i montaže.
+- **Prednost:** Jednostavna konstrukcija i velika nosivost.
+
+### Cilindrični Roboti
+- Kreću se u cilindričnom prostoru koristeći linearne i rotacijske osi.
+- Koriste se za zadatke poput točkastog zavarivanja i premještanja predmeta.
+
+### Sferni Roboti
+- Imaju sferni radni prostor i koriste rotacijske i linearne osi.
+- Pogodni su za zadatke poput bojanja i inspekcije.
+
+### SCARA Roboti (Selective Compliance Assembly Robot Arm)
+- Specijalizirani za brzu i preciznu montažu i premještanje malih objekata.
+- Koriste se u elektroničkoj industriji za sastavljanje dijelova.
+
+### Antropomorfni Roboti (Robotska Ruka)
+- Imitiraju ljudsku ruku s više zglobova.
+- Najčešće se koriste u automobilskoj industriji za zavarivanje, bojanje i montažu.
+
+### Delta Roboti
+- Imaju trokutaste strukture i koriste se za zadatke koji zahtijevaju visoku brzinu i malu težinu, poput pakiranja hrane.
+
+### Kolaborativni Roboti (Cobots)
+- Dizajnirani za rad uz ljude u sigurnom okruženju.
+- Opremljeni su sigurnosnim senzorima kako bi spriječili sudare s operaterima.
+
+---
+
+## Primjene Industrijskih Robota
+
+1. **Automobilska Industrija:**
+   - Robotske ruke za točkasto i šavno zavarivanje.
+   - Automatizirano bojanje vozila.
+   - Montaža dijelova poput motora i sjedala.
+
+2. **Elektronička Industrija:**
+   - Precizno sastavljanje malih elektroničkih komponenti.
+   - Postavljanje mikročipova i lemljenje.
+
+3. **Pakiranje i Logistika:**
+   - Robotski sustavi za pakiranje proizvoda.
+   - Automatizirano skladištenje i sortiranje.
+
+4. **Farmaceutska Industrija:**
+   - Precizno doziranje lijekova.
+   - Pakiranje i sterilizacija medicinskih proizvoda.
+
+5. **Hrana i Piće:**
+   - Robotski sustavi za sortiranje i pakiranje hrane.
+   - Automatizacija proizvodnih linija u mliječnim i pekarskim proizvodima.
+
+6. **Zrakoplovna Industrija:**
+   - Zavarivanje i bušenje dijelova zrakoplova.
+   - Inspekcija i popravci s visokom preciznošću.
+
+7. **Energetika:**
+   - Održavanje i inspekcija infrastrukture poput turbina i elektrana.
+
+---
+
+## Prednosti Industrijskih Robota
+
+- **Povećana Produktivnost:** Roboti mogu raditi 24/7 bez potrebe za odmorom, čime se značajno povećava proizvodnja.
+- **Poboljšana Sigurnost:** Automatsko obavljanje opasnih zadataka smanjuje rizik za ljudske radnike.
+- **Kvaliteta i Dosljednost:** Roboti osiguravaju ujednačenu kvalitetu proizvoda, eliminirajući varijacije uzrokovane ljudskim faktorom.
+- **Smanjenje Troškova:** Iako početna ulaganja mogu biti visoka, dugoročno se smanjuju troškovi proizvodnje.
+
+---
+
+## Izazovi Industrijskih Robota
+
+- **Visoki Troškovi Uvođenja:** Nabava i instalacija robotskih sustava zahtijeva značajna ulaganja.
+- **Potrebna Obuka:** Radnici trebaju biti obučeni za upravljanje i održavanje robota.
+- **Ograničena Fleksibilnost:** Roboti mogu biti manje prilagodljivi za zadatke koji zahtijevaju kreativnost ili ljudski dodir.
+
+
+
+
+
+
+# Mobilni roboti
 Mobilni roboti, poput robotskih usisavača i autonomnih vozila, dizajnirani su za kretanje u okruženju. Oni koriste kombinaciju senzora i algoritama za navigaciju kroz dinamične i nepredvidive uvjete.
 
 <img src="images/mobile_robot.jpg" alt="Mobilni robot" width="400">
@@ -63,7 +191,7 @@ Mobilni roboti, poput robotskih usisavača i autonomnih vozila, dizajnirani su z
 <img src="images/mobile_robot2.jpg" alt="Mobilni robot" width="400">
 *Slika: Prototip autonomnog vozila i mobilnog robota gusjeničara.*
 
-### Humanoidni roboti
+# Humanoidni roboti
 Humanoidni roboti, poput Pepper, oponašaju ljudsku anatomiju i pokrete, često se koristeći za društvene interakcije i istraživanje.
 
 <img src="images/humanoidni_robot1.jpg" alt="Humanoidni robot Pepper" width="400">
@@ -72,11 +200,11 @@ Humanoidni roboti, poput Pepper, oponašaju ljudsku anatomiju i pokrete, često 
 <img src="images/humanoidni_robot2.jpg" alt="Humanoidni robot Timmyja Hartera" width="400">
 *Slika: Humanoidni robot Timmyja Hartera, prototip humanoidnog robota izrađen od strane Hartera Robotics iz Matulja.*
 
-### Medicinski roboti
+# Medicinski roboti
 Medicinski roboti imaju specijalizirane funkcije, uključujući asistenciju pri operacijama i rehabilitaciju pacijenata. Na primjer, Da Vinci sustav omogućuje kirurzima izvođenje minimalno invazivnih zahvata uz visoku preciznost.
 
 
-## Važnost Robotike
+# Važnost Robotike
 
 Robotika ima ključnu ulogu u suvremenom svijetu, s primjenama koje uključuju:
 - **Industriju:** Automatizacija proizvodnih linija, smanjenje troškova i povećanje preciznosti.
