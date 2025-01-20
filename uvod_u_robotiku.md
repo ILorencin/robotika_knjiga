@@ -2,8 +2,6 @@
 
 Robotika je interdisciplinarno područje koje se bavi razvojem, projektiranjem i primjenom robota. Roboti su elektro-mehaničke naprave koje koriste senzore, aktuatore i računalne algoritme kako bi obavljali različite zadatke. Osnovna svrha robotike je automatizacija repetitivnih, opasnih ili preciznih zadataka, čime se povećava učinkovitost i sigurnost u raznim područjima primjene.
 
-Sam pojam robotike povezuje se s pojmom robota, koji označava napravu sposobnu za interakciju s okolinom. Roboti mogu biti autonomni, poluautonomni ili vođeni od strane ljudi. Njihova složenost varira od jednostavnih strojeva s osnovnim funkcijama do naprednih sustava koji koriste umjetnu inteligenciju za donošenje odluka u stvarnom vremenu.
-
 ---
 
 ## Povijest Robotike
@@ -24,29 +22,34 @@ Senzori omogućuju robotu da percipira svoju okolinu. Na primjer, kamere pružaj
 
 ## Različite Vrste Robota
 
-Roboti se mogu podijeliti u različite kategorije ovisno o njihovoj namjeni i funkcionalnosti. Industrijski roboti koriste se u proizvodnim pogonima za montažu, zavarivanje i rukovanje materijalima. Ovi roboti obično imaju visok stupanj točnosti i ponovljivosti, što ih čini idealnima za zahtjevne industrijske procese.
+### Industrijski roboti
+Industrijski roboti koriste se u proizvodnim pogonima za montažu, zavarivanje i rukovanje materijalima. Ovi roboti obično imaju visok stupanj točnosti i ponovljivosti, što ih čini idealnima za zahtjevne industrijske procese.
 
-Mobilni roboti, poput robotskih usisavača i autonomnih vozila, dizajnirani su za kretanje u okruženju. Oni koriste kombinaciju senzora i algoritama za navigaciju kroz dinamične i nepredvidive uvjete. Humanoidni roboti, poput ASIMO-a, oponašaju ljudsku anatomiju i pokrete, često se koristeći za društvene interakcije i istraživanje.
+![Manipulator robota](images/manipulator.jpg)
+*Slika: Industrijski manipulator Fanuc.*
 
-Medicinski roboti imaju specijalizirane funkcije, uključujući asistenciju pri operacijama i rehabilitaciju pacijenata. Na primjer, Da Vinci sustav omogućuje kirurzima izvođenje minimalno invazivnih zahvata uz visoku preciznost. S druge strane, kolaborativni roboti, poznati i kao "cobot-i", dizajnirani su za siguran rad uz ljude u zajedničkom okruženju.
 
----
+![Manipulator robota](images/manipulator2.jpg)
+*Slika: Industrijski manipulator ABB irb 120.*
 
-## Tehničke i Društvene Dimenzije Robotike
+### Mobilni roboti
+Mobilni roboti, poput robotskih usisavača i autonomnih vozila, dizajnirani su za kretanje u okruženju. Oni koriste kombinaciju senzora i algoritama za navigaciju kroz dinamične i nepredvidive uvjete.
 
-Tehnički aspekti robotike uključuju razvoj naprednih algoritama, senzorskih sustava i mehaničkih konstrukcija. Na primjer, istraživanje umjetne inteligencije omogućuje robotima da prepoznaju objekte, planiraju putanje i donose odluke. S druge strane, društveni aspekt robotike obuhvaća etička pitanja, poput sigurnosti i utjecaja na tržište rada.
+![Mobilni robot](images/mobile_robot.jpg)
+*Slika: Simulacija mobilnog robota.*
 
-Kako roboti postaju sve prisutniji u svakodnevnom životu, raste potreba za integracijom ovih tehnologija u obrazovne sustave. Mnoge škole i sveučilišta danas nude programe iz robotike kako bi pripremile novu generaciju stručnjaka za rad s ovim inovativnim tehnologijama.
+![Mobilni robot](images/mobile_robot2.jpg)
+*Slika: Prototip autonomnog vozila i mobilnog robota gusjeničara.*
 
----
+### Humanoidni roboti
+Humanoidni roboti, poput Pepper, oponašaju ljudsku anatomiju i pokrete, često se koristeći za društvene interakcije i istraživanje.
 
-## Vizualni Prikazi
+![Humanoidni robot Pepper](images/humanoid_robot1.jpg)
+*Slika: Humanoidni robot Pepper, primjer naprednog dizajna u robotici.*
 
-![Manipulator robota](https://upload.wikimedia.org/wikipedia/commons/7/7e/Industrial_Robot.jpg)
-*Slika: Industrijski manipulator u akciji.*
+![Humanoidni robot Timmyja Hartera](images/humanoid_robot1.jpg)
+*Slika: Humanoidni robot Timmyja Hartera, prototip humanoidnog robota izrađen od strane Hartera Robotics iz Matulja.*
 
-![Humanoidni robot ASIMO](https://upload.wikimedia.org/wikipedia/commons/e/e4/Honda_ASIMO.jpg)
-*Slika: Humanoidni robot ASIMO, primjer naprednog dizajna u robotici.*
+### Medicinski roboti
+Medicinski roboti imaju specijalizirane funkcije, uključujući asistenciju pri operacijama i rehabilitaciju pacijenata. Na primjer, Da Vinci sustav omogućuje kirurzima izvođenje minimalno invazivnih zahvata uz visoku preciznost.
 
-![Mobilni robot](https://upload.wikimedia.org/wikipedia/commons/3/3c/Mars_Rover.jpg)
-*Slika: Mars Rover, mobilni robot korišten u istraživanju svemira.*
