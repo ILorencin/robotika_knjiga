@@ -2,37 +2,27 @@
 
 Kinematika robota proučava gibanje robota bez uzimanja u obzir sila koje ga uzrokuju. Primarno se fokusira na odnos između gibanja zglobova (zajedničkih varijabli) i rezultirajućeg položaja i orijentacije krajnjeg djelovatelja robota.
 
----
-
 ## Direktna Kinematika
 
 Direktna kinematika odnosi se na određivanje položaja i orijentacije krajnjeg djelovatelja robota na temelju poznatih kutova zglobova i duljina segmenata robota.
 
-### Denavit-Hartenbergova (DH) Notacija
-
-Standardizacija parametara zglobova robota koristi Denavit-Hartenbergovu notaciju. DH parametri uključuju:
-1. **`a_i`** – Duljina veze (udaljenost između osi zglobova).
-2. **`α_i`** – Kut između osi zglobova (rotacija oko x osi).
-3. **`d_i`** – Pomak duž z osi.
-4. **`θ_i`** – Kut rotacije oko z osi.
-
 ### Matematički Primjer: Direktna Kinematika na Ruke
 
-Razmotrimo 2-zglobni planarni robot s duljinama veza \(a_1 = 1\) i \(a_2 = 1\), te kutovima \(\theta_1 = 30^\circ\) i \(\theta_2 = 45^\circ\).
+Razmotrimo 2-zglobni planarni robot s duljinama veza \(a_1 = 1\) i \(a_2 = 1\), te kutovima \(\theta_1 = 30^\circ\) i \(\theta_2 = 45^\circ\):
 
 #### Korak 1: Postavljanje Transformacijskih Matrica
 Transformacijska matrica prema Denavit-Hartenbergovoj notaciji je:
-\[
+$$
 T_i = \begin{bmatrix}
 \cos(\theta_i) & -\sin(\theta_i)\cos(\alpha_i) & \sin(\theta_i)\sin(\alpha_i) & a_i\cos(\theta_i) \\
 \sin(\theta_i) & \cos(\theta_i)\cos(\alpha_i) & -\cos(\theta_i)\sin(\alpha_i) & a_i\sin(\theta_i) \\
 0 & \sin(\alpha_i) & \cos(\alpha_i) & d_i \\
 0 & 0 & 0 & 1
 \end{bmatrix}
-\]
+$$
 
 Za \(\alpha_1 = \alpha_2 = 0\) i \(d_1 = d_2 = 0\), matrice postaju:
-\[
+$$
 T_1 = \begin{bmatrix}
 \cos(30^\circ) & -\sin(30^\circ) & 0 & 1\cdot\cos(30^\circ) \\
 \sin(30^\circ) & \cos(30^\circ) & 0 & 1\cdot\sin(30^\circ) \\
@@ -46,43 +36,43 @@ T_2 = \begin{bmatrix}
 0 & 0 & 1 & 0 \\
 0 & 0 & 0 & 1
 \end{bmatrix}
-\]
+$$
 
 #### Korak 2: Računanje Položaja
 Prvo transformiramo iz baze u prvi zglob:
-\[
+$$
 T_1 = \begin{bmatrix}
 \sqrt{3}/2 & -1/2 & 0 & \sqrt{3}/2 \\
 1/2 & \sqrt{3}/2 & 0 & 1/2 \\
 0 & 0 & 1 & 0 \\
 0 & 0 & 0 & 1
 \end{bmatrix}
-\]
+$$
 
 Zatim transformiramo iz prvog u drugi zglob:
-\[
+$$
 T_2 = \begin{bmatrix}
 \sqrt{2}/2 & -\sqrt{2}/2 & 0 & \sqrt{2}/2 \\
 \sqrt{2}/2 & \sqrt{2}/2 & 0 & \sqrt{2}/2 \\
 0 & 0 & 1 & 0 \\
 0 & 0 & 0 & 1
 \end{bmatrix}
-\]
+$$
 
 Konačna matrica za krajnji djelovatelj je:
-\[
+$$
 T = T_1 \cdot T_2 = \begin{bmatrix}
 0.366 & -0.366 & 0 & 1.366 \\
 1.366 & 1.366 & 0 & 1.366 \\
 0 & 0 & 1 & 0 \\
 0 & 0 & 0 & 1
 \end{bmatrix}
-\]
+$$
 
 Položaj krajnjeg djelovatelja je:
-\[
+$$
 x = 1.366, \quad y = 1.366
-\]
+$$
 
 ### Python Primjer: Direktna Kinematika
 ```python
@@ -117,6 +107,7 @@ Rezultat:
 ```
 Položaj krajnjeg djelovatelja: [1.3660254 1.3660254 0.       ]
 ```
+
 
 ## Inverzna Kinematika
 
