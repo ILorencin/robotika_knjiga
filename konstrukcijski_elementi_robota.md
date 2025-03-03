@@ -88,6 +88,3 @@ Inspirirani prirodnim kretanjem, koriste noge umjesto kotača, što im omogućuj
 
 Mobilni roboti imaju široku primjenu u industriji, logistici, medicini i vojnoj upotrebi, te su ključni u razvoju autonomnih sustava budućnosti.
 
-## 4. Zaključak
-Razumijevanje konstrukcijskih elemenata robota ključno je za razvoj naprednih autonomnih sustava. Svaka komponenta ima specifičnu ulogu u cjelokupnom radu robota, a njihova integracija omogućuje širok spektar primjena u industriji, medicini, logistici i istraživanju. Studenti koji ovladaju ovim temeljnim principima bit će spremni za daljnje proučavanje i razvoj inovativnih robotskih sustava.
-
