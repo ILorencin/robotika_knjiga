@@ -1,4 +1,4 @@
-# Poglavlje X: Konstrukcijski elementi robota
+# Konstrukcijski elementi robota
 
 ## 1. Uvod
 Robotika je interdisciplinarno područje koje objedinjuje mehaniku, elektroniku i računarstvo kako bi se stvorili inteligentni sustavi sposobni za autonomno ili poluautonomno djelovanje. Konstrukcija robota podrazumijeva pažljivo planiranje i integraciju ključnih elemenata koji omogućuju kretanje, percepciju, interakciju s okolinom i obavljanje specifičnih zadataka. Cilj ovog poglavlja je detaljno opisati osnovne konstrukcijske elemente robota, pružajući studentima temeljno razumijevanje njihove funkcionalnosti i primjene.
