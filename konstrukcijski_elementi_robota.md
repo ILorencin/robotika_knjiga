@@ -43,6 +43,30 @@ Komunikacija između komponenti i s vanjskim sustavima ključna je za koordinaci
 - **Bežična komunikacija** – Wi-Fi, Bluetooth i Zigbee koriste se za daljinsku kontrolu i umrežavanje robota.
 - **Umreženi roboti i IoT integracija** – Povezivanje robota s cloud sustavima omogućuje naprednu analitiku i optimizaciju rada.
 
+### 2.7. Radni prostor robota
+
+Radni prostor robota odnosi se na volumen unutar kojeg se njegov krajnji efektor može kretati. Ovisno o vrsti robota, radni prostor može imati različite oblike:
+
+Kartezijski radni prostor – Pravokutni oblik, karakterističan za robote s prizmatičnim zglobovima.
+
+Cilindrični radni prostor – Nastaje kada robot koristi kombinaciju translacijskih i rotacijskih osi.
+
+Sferni radni prostor – Omogućuje velik domet i fleksibilnost, tipičan za robote s više rotacijskih zglobova.
+
+Zglobni radni prostor – Fleksibilan, ali ograničen zbog geometrije robotskih ruku.
+
+Faktori koji utječu na radni prostor uključuju:
+
+Broj stupnjeva slobode – Više stupnjeva slobode omogućuje veći i složeniji radni prostor.
+
+Geometrija zglobova – Prizmatični zglobovi omogućuju linearno proširenje radnog prostora, dok rotacijski dodaju fleksibilnost.
+
+Fizičke prepreke – Okolina može ograničiti puni potencijal radnog prostora.
+
+Programska ograničenja – Upravljački sustavi mogu postaviti virtualne granice kako bi spriječili sudare i osigurali sigurnost rada.
+
+Razumijevanje radnog prostora ključno je za dizajn robotskih sustava kako bi se optimizirala njihova funkcionalnost i efikasnost u specifičnim primjenama.
+
 ## 3. Mobilni roboti
 Mobilni roboti su autonomni sustavi sposobni za kretanje u prostoru bez fiksne infrastrukture. Ovisno o načinu kretanja, dijele se na:
 
