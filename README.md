@@ -19,9 +19,9 @@
 Ova knjižica sadrži pregled osnova robotike i detalje o specijaliziranim temama. Svaka tema razrađena je u zasebnoj datoteci:
 
 1. [Uvod u Robotiku](./uvod_u_robotiku.md)
-2. [Planiranje Trajektorije](./planiranje_trajektorije.md)
-3. [Dinamika Robota](./dinamika_robota.md)
-4. [Kinematika Robota](./kinematika_robota.md)
+2. [Konstrukcijski elementi robota](./konstrukcijski_elementi_robota.md)
+3. [Planiranje Trajektorije](./planiranje_trajektorije.md)
+4. [Dinamika Robota](./dinamika_robota.md)
 5. [Programiranje Robotskih Manipulatora](./programiranje_manipulatora.md)
 6. [Distributivna Inteligencija i Više-Robotski Sustavi](./distribuitivna_inteligencija.md)
 7. [Teorija Mapiranja i Istraživanja](./mapiranje_i_istrazivanje.md)
