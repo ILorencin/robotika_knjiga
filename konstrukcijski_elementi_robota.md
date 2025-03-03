@@ -47,23 +47,23 @@ Komunikacija između komponenti i s vanjskim sustavima ključna je za koordinaci
 
 Radni prostor robota odnosi se na volumen unutar kojeg se njegov krajnji efektor može kretati. Ovisno o vrsti robota, radni prostor može imati različite oblike:
 
-Kartezijski radni prostor – Pravokutni oblik, karakterističan za robote s prizmatičnim zglobovima.
+- Kartezijski radni prostor – Pravokutni oblik, karakterističan za robote s prizmatičnim zglobovima.
 
-Cilindrični radni prostor – Nastaje kada robot koristi kombinaciju translacijskih i rotacijskih osi.
+- Cilindrični radni prostor – Nastaje kada robot koristi kombinaciju translacijskih i rotacijskih osi.
 
-Sferni radni prostor – Omogućuje velik domet i fleksibilnost, tipičan za robote s više rotacijskih zglobova.
+- Sferni radni prostor – Omogućuje velik domet i fleksibilnost, tipičan za robote s više rotacijskih zglobova.
 
-Zglobni radni prostor – Fleksibilan, ali ograničen zbog geometrije robotskih ruku.
+- Zglobni radni prostor – Fleksibilan, ali ograničen zbog geometrije robotskih ruku.
 
 Faktori koji utječu na radni prostor uključuju:
 
-Broj stupnjeva slobode – Više stupnjeva slobode omogućuje veći i složeniji radni prostor.
+- Broj stupnjeva slobode – Više stupnjeva slobode omogućuje veći i složeniji radni prostor.
 
-Geometrija zglobova – Prizmatični zglobovi omogućuju linearno proširenje radnog prostora, dok rotacijski dodaju fleksibilnost.
+- Geometrija zglobova – Prizmatični zglobovi omogućuju linearno proširenje radnog prostora, dok rotacijski dodaju fleksibilnost.
 
-Fizičke prepreke – Okolina može ograničiti puni potencijal radnog prostora.
+- Fizičke prepreke – Okolina može ograničiti puni potencijal radnog prostora.
 
-Programska ograničenja – Upravljački sustavi mogu postaviti virtualne granice kako bi spriječili sudare i osigurali sigurnost rada.
+- Programska ograničenja – Upravljački sustavi mogu postaviti virtualne granice kako bi spriječili sudare i osigurali sigurnost rada.
 
 Razumijevanje radnog prostora ključno je za dizajn robotskih sustava kako bi se optimizirala njihova funkcionalnost i efikasnost u specifičnim primjenama.
 
