@@ -46,7 +46,12 @@ Komunikacija između komponenti i s vanjskim sustavima ključna je za koordinaci
 
 ### 2.7. Radni prostor robota
 
-Radni prostor robota odnosi se na volumen unutar kojeg se njegov krajnji efektor može kretati. Ovisno o vrsti robota, radni prostor može imati različite oblike:
+Radni prostor robota odnosi se na volumen unutar kojeg se njegov krajnji efektor može kretati. 
+
+![image](https://github.com/user-attachments/assets/a09c856b-9fb3-474c-bf12-91934e8f14b3)
+
+
+Ovisno o vrsti robota, radni prostor može imati različite oblike:
 
 ![image](https://github.com/user-attachments/assets/5690b9e7-7cf5-4f22-b146-920f2277c7c7)
 
@@ -70,6 +75,117 @@ Faktori koji utječu na radni prostor uključuju:
 - **Programska ograničenja** – Upravljački sustavi mogu postaviti virtualne granice kako bi spriječili sudare i osigurali sigurnost rada.
 
 Razumijevanje radnog prostora ključno je za dizajn robotskih sustava kako bi se optimizirala njihova funkcionalnost i efikasnost u specifičnim primjenama.
+
+# Zglobovi robota
+
+## Translacijski: Omogućava kretanje u jednoj osi.
+
+![image](https://github.com/user-attachments/assets/b16891a9-f11e-454b-b18e-87835d7195e0)
+
+
+## Rotacijski: Omogućava kretanje oko okomite osi.
+
+![image](https://github.com/user-attachments/assets/46f483cb-1291-472e-b5c6-85cabe03e31b)
+
+
+## Torzijski: Rotacija bez promjene relativnog položaja.
+
+![image](https://github.com/user-attachments/assets/a1399842-2e99-4574-a4fa-8729ddae494d)
+
+
+## Revolucijski: Rotacija oko osi koja je paralelna jednom članku.
+
+![image](https://github.com/user-attachments/assets/8efb3584-15e0-49b6-bf2d-ac20a031dd93)
+
+
+# Konfiguracije robota
+
+Roboti se mogu konfigurirati na različite načine, ovisno o njihovoj namjeni i radnim zahtjevima. Različite konfiguracije omogućuju specifične prednosti u pogledu mobilnosti, stabilnosti, radnog prostora i primjene. Svaka konfiguracija prilagođena je određenim industrijskim procesima i uvjetima rada.
+
+## Kartezijska konfiguracija
+
+![image](https://github.com/user-attachments/assets/5f11ebcf-4334-411a-bb9e-f691601d3d04)
+
+
+Tri translacijska zgloba, pravolinijsko kretanje.
+
+- Tri translacijska zgloba
+- Okomite osi
+- Pravolinijsko kretanje
+- Radni prostor je prizma
+- Jednostavnost i robusnost
+- Ograničeno kretanje i ograničeni doseg
+- Izložene vodilice
+- Primjena u aplikacijama pokupi i ostavi
+- Sklapanje
+- Rukovanje alatima
+
+
+## Cilindrična konfiguracija
+
+![image](https://github.com/user-attachments/assets/d7a04cf3-6735-4231-b205-2db0fd6eda5b)
+
+
+- Prvi zglob torzijski, radni prostor između koncentričnih valjaka.
+
+- Prednosti: Dobra čvrstoća, jednostavno podmazivanje.
+
+- Nedostaci: Manja točnost, nemogućnost dosezanja objekata iznad sebe.
+
+- Primjena: Lijevanje u kalupe, sklapanje.
+
+## Polarna konfiguracija
+
+![image](https://github.com/user-attachments/assets/eba63a7c-2a75-4b3b-9a27-ac5a2b6fac4f)
+
+
+- Radni prostor između dviju koncentričnih sfera.
+
+- Prednosti: Zaštićen pogon.
+
+- Nedostaci: Složeno programiranje, niska točnost.
+
+- Primjena: Lučno i točkasto zavarivanje.
+
+## Artikulirana konfiguracija
+
+![image](https://github.com/user-attachments/assets/83529632-4e0a-4944-b31f-742413c9bd27)
+
+
+- Svi rotacijski zglobovi.
+
+- Radni prostor kugla.
+
+- Prednosti: Visoka upravljivost.
+
+- Nedostaci: Složeno upravljanje.
+
+- Primjena: Sklapanje, bojanje, zavarivanje.
+
+## SCARA konfiguracija
+
+![image](https://github.com/user-attachments/assets/56510146-b3bd-418b-a628-6c97c02948ed)
+
+
+- Jedan translacijski zglob, paralelni rotacijski zglobovi.
+
+- Prednosti: Visoka čvrstoća na vertikalnoj osi.
+
+- Primjena: Montiranje, slaganje.
+
+Komponente robotskih manipulatora
+
+- Krajnji djelovatelj (End Effector)
+
+- Hvataljke: Mehaničke, usisne, magnetske.
+
+- Mehaničke: Realizirane s dva ili tri prsta.
+
+- Usisne: Rad pomoću vakuuma.
+
+- Magnetske: Samo za feromagnetske materijale.
+
+- Alati: Bušenje, bojanje, zavarivanje.
 
 ## 3. Mobilni roboti
 Mobilni roboti su autonomni sustavi sposobni za kretanje u prostoru bez fiksne infrastrukture. Ovisno o načinu kretanja, dijele se na:
