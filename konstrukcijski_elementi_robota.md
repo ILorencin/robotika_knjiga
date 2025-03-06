@@ -12,6 +12,7 @@ Mehanička struktura robota čini njegovu osnovu i omogućuje fizičku interakci
 - **Zglobovi i veze** – Komponente koje omogućuju kretanje robota, obuhvaćajući rotacijske (revolutivne) i translacijske (prizmatične) zglobove.
 - **Krajnji efektor** – Završni element robota koji obavlja određeni zadatak, poput hvataljke, alata za zavarivanje ili 3D pisača.
 
+
 ### 2.2. Aktuatori
 Aktuatori su komponente koje omogućuju pokretanje robota pretvarajući električnu, hidrauličku ili pneumatsku energiju u mehaničko gibanje.
 - **Električni motori** – DC, servo i koračni motori koriste se za precizno upravljanje pokretima.
@@ -46,6 +47,9 @@ Komunikacija između komponenti i s vanjskim sustavima ključna je za koordinaci
 ### 2.7. Radni prostor robota
 
 Radni prostor robota odnosi se na volumen unutar kojeg se njegov krajnji efektor može kretati. Ovisno o vrsti robota, radni prostor može imati različite oblike:
+
+![image](https://github.com/user-attachments/assets/5690b9e7-7cf5-4f22-b146-920f2277c7c7)
+
 
 - **Kartezijski radni prostor** – Pravokutni oblik, karakterističan za robote s prizmatičnim zglobovima.
 
