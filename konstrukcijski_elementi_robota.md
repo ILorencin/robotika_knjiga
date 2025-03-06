@@ -9,8 +9,10 @@ Razvoj robota zahtijeva integraciju više različitih komponenti, pri čemu svak
 ### 2.1. Mehanička struktura
 Mehanička struktura robota čini njegovu osnovu i omogućuje fizičku interakciju s okolinom. Ključni dijelovi uključuju:
 - **Okvir i tijelo robota** – Nosiva konstrukcija robota izrađena od materijala poput aluminija, čelika ili kompozitnih materijala, koji pružaju potrebnu čvrstoću i fleksibilnost.
-- **Zglobovi i veze** – Komponente koje omogućuju kretanje robota, obuhvaćajući rotacijske (revolutivne) i translacijske (prizmatične) zglobove.
+- **Zglobovi i članci** – Komponente koje omogućuju kretanje robota, obuhvaćajući rotacijske (revolutivne) i translacijske (prizmatične) zglobove te njihove veze (članke). Naziva se još i robotski manipulator.
 - **Krajnji efektor** – Završni element robota koji obavlja određeni zadatak, poput hvataljke, alata za zavarivanje ili 3D pisača.
+
+![image](https://github.com/user-attachments/assets/345e88e2-9acc-4bba-894d-ca329a1f74b3)
 
 
 ### 2.2. Aktuatori
